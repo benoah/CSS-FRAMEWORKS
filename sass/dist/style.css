@@ -9893,12 +9893,10 @@ h3 {
   background-position: center center;
   position: relative;
 }
-
-.card-img {
+.news-block .card-img-top .card-img {
   padding: 16px;
 }
-
-.news-block {
+.news-block .card-img-top .news-block {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -9907,13 +9905,11 @@ h3 {
   border-radius: 15px;
   margin-bottom: 2em;
 }
-
-.news-block p {
+.news-block .card-img-top .news-block p {
   font-size: 0.9rem;
   flex: 1;
 }
-
-.news-block .btn {
+.news-block .card-img-top .news-block .btn {
   font-size: 0.8rem;
   background: #E92569;
   border: none;
@@ -9921,8 +9917,7 @@ h3 {
   position: relative;
   width: 100%;
 }
-
-.news-block .btn::before {
+.news-block .card-img-top .news-block .btn::before {
   content: "";
   position: absolute;
   right: 0;
@@ -9936,20 +9931,17 @@ h3 {
   background-size: cover;
   background-position: center center;
 }
-
-.carousel-indicators li {
+.carousel-item li {
   width: 30px;
   height: 30px;
   margin: 0 5px;
   background-color: #FFFFFF;
   border-radius: 12px;
 }
-
-.carousel-inner {
+.carousel-item .carousel-inner {
   max-height: 465px;
 }
-
-.carousel-indicators .active {
+.carousel-item .carousel-indicators .active {
   background-color: #E92569;
 }
 
@@ -9982,27 +9974,22 @@ footer {
   font-weight: bold;
   margin-left: 24px;
 }
-
-.navbar {
+.navbar-brand .navbar {
   background-color: #EFEFEF !important;
 }
-
-.navbar-light .navbar-nav .nav-link {
+.navbar-brand .navbar-light .navbar-nav .nav-link {
   color: #0A0A0A;
   font-size: 16px;
   font-family: "Lato", sans-serif;
 }
-
-.navbar-light .navbar-nav .active > .nav-link {
+.navbar-brand .navbar-light .navbar-nav .active > .nav-link {
   background-color: #FFFFFF;
 }
-
-.input-group-text {
+.navbar-brand .input-group-text {
   color: white;
   background-color: #E92569;
 }
-
-.navbar-collapse {
+.navbar-brand .navbar-collapse {
   z-index: 1;
 }
 
@@ -10012,8 +9999,7 @@ footer {
   background-color: #E92569;
   border-color: #E92569;
 }
-
-.page-link {
+.page-item.active .page-link .page-link {
   color: #E92569;
 }
 
@@ -10021,14 +10007,12 @@ footer {
   color: #767676;
   background-color: #FFFFFF;
 }
-
-a {
+.nav-pills .nav-link.active a, .nav-pills .show > .nav-link a {
   color: #E92569;
   text-decoration: none;
   background-color: transparent;
 }
-
-.nav {
+.nav-pills .nav-link.active .nav, .nav-pills .show > .nav-link .nav {
   margin-top: 24px;
 }
 
