@@ -1,0 +1,12 @@
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #767676;
+  background-color: #FFFFFF;
+}
+.nav-pills .nav-link.active a, .nav-pills .show > .nav-link a {
+  color: #E92569;
+  text-decoration: none;
+  background-color: transparent;
+}
+.nav-pills .nav-link.active .nav, .nav-pills .show > .nav-link .nav {
+  margin-top: 24px;
+}
